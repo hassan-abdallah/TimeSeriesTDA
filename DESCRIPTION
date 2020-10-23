@@ -1,10 +1,10 @@
 Package: NeuroTDA
-Title: What the Package Does (one line, title case)
+Title: This package performs hypothesis testing for fMRI data using topological data analysis. 
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Hassan", "Abdallah", email = "hasabdallah@gmail.com", role = c("aut", "cre"))
+Description:  
 Depends: R (>= 3.5.2)
-License: What license is it under?
+License: GNU GPLv3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
