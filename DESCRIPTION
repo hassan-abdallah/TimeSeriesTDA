@@ -1,5 +1,5 @@
-Package: NeuroTDA
-Title: This package performs hypothesis testing for fMRI data using topological data analysis. 
+Package: TimeSeriesTDA
+Title: This package performs hypothesis testing for time series data using topological data analysis. 
 Version: 0.0.0.9000
 Authors@R: person("Hassan", "Abdallah", email = "hasabdallah@gmail.com", role = c("aut", "cre"))
 Description:  
