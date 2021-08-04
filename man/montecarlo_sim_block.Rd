@@ -10,12 +10,11 @@ montecarlo_sim_block(distancemat, grouplabels, N, blocks, blocksize)
 \item{distancemat}{A distance matrix. The output of distance_mat()}
 
 \item{grouplabels}{A set of labels(indices) for one of the two groups in experiment.}
+  
+\item{levels}{Two-column matrix encoding index information for two-level point-cloud grouping. First column is whole-block shuffling partition and second column is within-block shuffling partition.}
 
 \item{N}{The number of permutations to be performed.}
 
-\item{blocks}{The number of exchangeable blocks. Usually the number of epochs in an experiment.}
-
-\item{blocksize}{The size of each block, only give one value.}
 }
 \description{
 This function computes a p-value using a monte carlo simulation with block sampling.
